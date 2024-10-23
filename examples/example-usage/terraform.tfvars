@@ -1,0 +1,8 @@
+project_id     = "terraform-firebase-functions" 
+region         = "us-central1"
+function_name  = "my-firebase-function"
+entry_point    = "myFunction"
+runtime        = "nodejs16"
+bucket_name    = "my-tf-firebase-bucket" 
+archive_object = "function-code.zip"    
+pubsub_topic   = "projects/terraform-firebase-functions/topics/my-topic"
